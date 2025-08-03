@@ -1,17 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import { Navbar, Nav, Button, Container, NavDropdown } from 'react-bootstrap';
-import MyNavBar from './components/NavBar';
-import MyPageHeader from './components/PageHeader';
-import MyAboutMe from './components/AboutMe';
-import MySkill from './components/Skill';
-import MyExperience from './components/Experience';
-import MyEducation from './components/Education';
-import MyProject from './components/Project';
-import MyCertificate from './components/Certificate';
-import MyFooter from './components/Footer';
+import Page from './components/Page';
+import { ThemeContextProvider } from "./components/ThemeContextProvider"
 
 function App() {
+
+
   return (
     // <div className="App">
     //   <header className="App-header">
@@ -29,21 +22,9 @@ function App() {
     //       Learn React
     //     </a>   <div>
     <>
-      <MyNavBar />
-      <div className="wrapper text-light"  style={{ backgroundColor: "#000000" }}>
-        <Container>
-          <MyPageHeader />
-          <MyAboutMe />
-          <MySkill />
-          <MyExperience />
-          <MyEducation />
-          <MyProject />
-          {/* <MyCertificate/> */}
-          
-        </Container>
-        <MyFooter />
-      </div>
-
+      <ThemeContextProvider>
+        <Page />
+      </ThemeContextProvider>
     </>
     // <Button variant="danger">Click Me!</Button>
 

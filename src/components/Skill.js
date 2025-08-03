@@ -5,16 +5,16 @@ function MySkill() {
         <div className='py-5' id="skill">
             <Container>
                 <div className='text-center py-4'>
-                        <Badge pill bg="dark" className='p-2 px-3 text-secondary'>
-                            MY SKILLS
-                        </Badge>
-                    </div>
+                    <Badge pill bg="dark" className='p-2 px-3'>
+                        MY SKILLS
+                    </Badge>
+                </div>
                 <Row className=''>
                     <div className='col-xl-6 p-2'>
-                        <Card className='text-light bg-dark border-secondary' style={{borderRadius:"1rem"}}>
-                            <Card.Header className=' border-secondary'>Programming Languages</Card.Header>
+                        <Card className='cardTheme' style={{ borderRadius: "1rem" }}>
+                            <Card.Header className='text-center'>Programming Languages</Card.Header>
                             <Card.Body>
-                                <Card.Text>
+                                <Card.Text as="small">
                                     <Row>
                                         <Col>
                                             <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;C++</p>
@@ -32,13 +32,13 @@ function MySkill() {
                         </Card>
                     </div>
                     <div className='col-xl-6 p-2'>
-                        <Card className='text-white bg-dark border-secondary' style={{borderRadius:"1rem"}}>
-                            <Card.Header className=' border-secondary'>Frameworks & Libraries</Card.Header>
+                        <Card className='cardTheme' style={{ borderRadius: "1rem" }}>
+                            <Card.Header className='text-center'>Frameworks & Libraries</Card.Header>
                             <Card.Body>
-                                <Card.Text>
+                                <Card.Text as="small">
                                     <Row>
                                         <Col>
-                                            <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;HTML/CSS</p>
+                                            <p><i class="bi bi-box-fill"></i>&nbsp;&nbsp;&nbsp;HTML/CSS</p>
                                             <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;React/Bootstrap</p>
                                             <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;Node.js/Express.js</p>
                                         </Col>
@@ -53,10 +53,10 @@ function MySkill() {
                         </Card>
                     </div>
                     <div className='col-xl-6 p-2'>
-                        <Card className='text-white bg-dark border-secondary' style={{borderRadius:"1rem"}}>
-                            <Card.Header className=' border-secondary'>Software & Tools</Card.Header>
+                        <Card className='cardTheme' style={{ borderRadius: "1rem" }}>
+                            <Card.Header className='text-center'>Software & Tools</Card.Header>
                             <Card.Body>
-                                <Card.Text>
+                                <Card.Text as="small">
                                     <Row>
                                         <Col>
                                             <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;Visual Studio</p>
@@ -75,25 +75,27 @@ function MySkill() {
                             </Card.Body>
                         </Card>
                     </div>
-                     <div className='col-xl-6 p-2'>
-                        <Card className='text-white bg-dark border-secondary' style={{borderRadius:"1rem"}}>
-                            <Card.Header className=' border-secondary'>Microcontrollers & Communication Protocols</Card.Header>
+                    <div className='col-xl-6 p-2'>
+                        <Card className='cardTheme' style={{ borderRadius: "1rem" }}>
+                            <Card.Header className='text-center'>Microcontrollers & Communication Protocols</Card.Header>
+
                             <Card.Body>
-                                <Card.Text>
+                                
+                                <Card.Text as="small">
                                     <Row>
                                         <Col>
-                                            <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;ESP32/Arduino</p>
-                                            <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;Modbus TCP/IP</p>
-                                            <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;Wi-Fi/Bluetooth</p>
+                                            <p><i class="bi bi-box-fill"></i>&nbsp;&nbsp;&nbsp;ESP32/Arduino</p>
+                                            <p><i class="bi bi-box-fill"></i>&nbsp;&nbsp;&nbsp;Modbus TCP/IP</p>
+                                            <p><i class="bi bi-box-fill"></i>&nbsp;&nbsp;&nbsp;Wi-Fi/Bluetooth</p>
                                         </Col>
                                         <Col>
-                                            <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;UART</p>
-                                            <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;I2C/SPI</p>
-                                            <p><i class="bi bi-box-fill text-info"></i>&nbsp;&nbsp;&nbsp;RS-232/RS-485</p>
+                                            <p><i class="bi bi-box-fill"></i>&nbsp;&nbsp;&nbsp;UART</p>
+                                            <p><i class="bi bi-box-fill"></i>&nbsp;&nbsp;&nbsp;I2C/SPI</p>
+                                            <p><i class="bi bi-box-fill"></i>&nbsp;&nbsp;&nbsp;RS-232/RS-485</p>
                                             <p>&nbsp;</p>
                                         </Col>
                                     </Row>
-                                   
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>

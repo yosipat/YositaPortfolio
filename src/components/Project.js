@@ -57,14 +57,14 @@ function MyProject() {
         <div className='py-5' id="project">
             <Container>
                 <div className='text-center py-4'>
-                    <Badge pill bg="dark" className='p-2 px-3 text-secondary'>
+                    <Badge pill bg="dark" className='p-2 px-3'>
                         PROJECTS
                     </Badge>
                 </div>
                 <Row xs={1} sm={1} md={3} className="g-4">
                     {paginatedCards.map((card) => (
                         <Col key={card.id}>
-                            <Card className='text-white bg-dark'>
+                            <Card className='cardExp'>
                                 {card.img == "" ? "" : <Card.Img variant="top" src={card.img} />}
 
                                 <Card.Body>

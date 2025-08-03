@@ -1,10 +1,14 @@
 import { Navbar, Nav, Button, Container, NavDropdown } from 'react-bootstrap';
-
+import { ThemeContext } from "./ThemeContextProvider"
+import { useContext } from "react"
 function MyNavBar() {
+  const { toggleTheme } = useContext(ThemeContext)
+  const { theme } = useContext(ThemeContext)
   return (
     <>
       <Navbar expand="sm" className="bg-body-tertiary" fixed="top" sticky='top' >
         <Container>
+          {/* <Button onClick={toggleTheme}>{theme}</Button> */}
           <Navbar.Brand href="#"><small>Yosita J.</small></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" bg="primary" className='justify-content-center'>

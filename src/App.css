@@ -1,6 +1,7 @@
-*{
-    font-family:Arial, Helvetica, sans-serif
+* {
+  font-family: Arial, Helvetica, sans-serif
 }
+
 .App {
   text-align: center;
 
@@ -36,13 +37,56 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.text-highlight{
+.text-highlight {
   /* color: #f5388d; */
   color: #0dcaf0;
   /* font-weight: bold; */
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.light .cardTheme {
+  /* background-color: #0dcaf088; */
+  /* border-color: #0dcaf0; */
+  color: black;
+}
+
+.light .cardTheme i {
+  color: #0dcaf0;
+}
+
+.light .cardExp {
+  /* color: black; */
+}
+
+
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.dark .cardTheme {
+  background-color: #212529;
+  border-color: gray;
+  color: white;
+}
+
+.dark .cardTheme i {
+  color: #0dcaf0;
+}
+
+.dark .cardExp {
+  background-color: #212529;
+  border-color: gray;
+  color: white;
 }

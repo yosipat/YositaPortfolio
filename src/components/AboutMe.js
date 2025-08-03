@@ -6,7 +6,7 @@ function MyAboutMe() {
             <div className='py-5' id="aboutMe">
                 <Container>
                     <div className='text-center py-4'>
-                        <Badge pill bg="dark" className='p-2 px-3 text-secondary'>
+                        <Badge pill bg="dark" className='p-2 px-3'>
                             ABOUT ME
                         </Badge>
                     </div>

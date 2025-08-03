@@ -5,7 +5,7 @@ function MyEducation() {
         <div className='py-5' id="edu">
             <Container>
                 <div className='text-center py-4'>
-                    <Badge pill bg="dark" className='p-2 px-3 text-secondary'>
+                    <Badge pill bg="dark" className='p-2 px-3'>
                         EDUCATION
                     </Badge>
                 </div>
@@ -14,7 +14,7 @@ function MyEducation() {
                         <ListGroup as="ol" style={{borderRadius:"1rem"}}>
                             <ListGroup.Item
                                 as="li"
-                                className="d-flex justify-content-between align-items-start p-4 text-light border-secondary bg-dark"
+                                className="d-flex justify-content-between align-items-start p-4 cardExp"
                             >
                                 <div className="ms-2 me-auto">
                                     <div className="">Diploma of Software Development</div>
@@ -27,7 +27,7 @@ function MyEducation() {
                             </ListGroup.Item>
                             <ListGroup.Item
                                 as="li"
-                                className="d-flex justify-content-between align-items-start p-4 text-light border-secondary bg-dark"
+                                className="d-flex justify-content-between align-items-start p-4 cardExp"
                             >
                                 <div className="ms-2 me-auto">
                                     <div className="">Master of Business Administration</div>
@@ -40,7 +40,7 @@ function MyEducation() {
                             </ListGroup.Item>
                             <ListGroup.Item
                                 as="li"
-                                className="d-flex justify-content-between align-items-start p-4 text-light border-secondary bg-dark"
+                                className="d-flex justify-content-between align-items-start p-4 cardExp"
                             >
                                 <div className="ms-2 me-auto">
                                     <div className="">Bachelor of Electronics Engineering</div>
