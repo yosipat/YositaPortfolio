@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YositaPortfolio/static/css/main.f40d5c0d.css",
-    "main.js": "/YositaPortfolio/static/js/main.7deec839.js",
+    "main.css": "/YositaPortfolio/static/css/main.7136e6e8.css",
+    "main.js": "/YositaPortfolio/static/js/main.c2bbf320.js",
     "static/js/453.ad7768ec.chunk.js": "/YositaPortfolio/static/js/453.ad7768ec.chunk.js",
     "static/media/BestDishes.jpg": "/YositaPortfolio/static/media/BestDishes.5bca885f66ac0bfdde35.jpg",
     "static/media/SpotstichARCamera.jpg": "/YositaPortfolio/static/media/SpotstichARCamera.dab38990fce8a3aa8db6.jpg",
@@ -15,14 +15,13 @@
     "static/media/Hangman.jpg": "/YositaPortfolio/static/media/Hangman.907031fe6dbe0f192023.jpg",
     "static/media/GetBit.jpg": "/YositaPortfolio/static/media/GetBit.d76cbd4408198503d612.jpg",
     "static/media/Connect3.jpg": "/YositaPortfolio/static/media/Connect3.4d651b87acaf9789325f.jpg",
-    "static/media/logo.svg": "/YositaPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/YositaPortfolio/index.html",
-    "main.f40d5c0d.css.map": "/YositaPortfolio/static/css/main.f40d5c0d.css.map",
-    "main.7deec839.js.map": "/YositaPortfolio/static/js/main.7deec839.js.map",
+    "main.7136e6e8.css.map": "/YositaPortfolio/static/css/main.7136e6e8.css.map",
+    "main.c2bbf320.js.map": "/YositaPortfolio/static/js/main.c2bbf320.js.map",
     "453.ad7768ec.chunk.js.map": "/YositaPortfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f40d5c0d.css",
-    "static/js/main.7deec839.js"
+    "static/css/main.7136e6e8.css",
+    "static/js/main.c2bbf320.js"
   ]
 }
